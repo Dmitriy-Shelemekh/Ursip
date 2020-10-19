@@ -5,6 +5,8 @@ import java.util.stream.Collectors;
 
 public class Ursip {
     public static void main(String[] args) {
+        System.out.println("007: " + Ursip.generateNum(new ArrayList<>(Arrays.asList(6, 6, 6, 6, 6))));
+
         System.out.println("003: " + Ursip.generateNum(new ArrayList<>(Arrays.asList(1, 2, 4, 5, 6))));
         System.out.println("013: " + Ursip.generateNum(new ArrayList<>(Arrays.asList(11, 12, 14, 15, 16))));
         System.out.println("112: " + Ursip.generateNum(new ArrayList<>(Arrays.asList(111, 121, 141, 151, 161))));
@@ -51,7 +53,7 @@ public class Ursip {
     }
 }
 
-//Задание:
+//        Задание:
 //
 //        Реализовать метод для генерации номера проекта на Java, Kotlin или Scala
 //
